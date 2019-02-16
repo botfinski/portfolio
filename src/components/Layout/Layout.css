@@ -1,0 +1,14 @@
+*, 
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
+*:focus, 
+*:active {
+	outline: 1px solid transparent;
+}
+
+.Layout {
+    display: flex;
+}
