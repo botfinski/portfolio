@@ -1,67 +1,67 @@
 .social_media {
-    margin: 3.5vh 0 0 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
+  margin: 3.5vh 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .social_media__item {
-    display: inline-block;
+  display: inline-block;
 }
 
 .social_media__item_link {
-    display: block;
-    text-indent: -9999px;
-    width: 40px;
-    height: 40px;
-	border-radius: 50%;
-	position: relative;
-	background-color: black;
+  display: block;
+  text-indent: -9999px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  background-color: black;
 }
 
 .social_media__item_link[class*="facebook"]::after {
-    background-image:url(../../../assets/images/facebook.svg);
+  background-image: url(../../../assets/images/facebook.svg);
 }
 
 .social_media__item_link[class*="behance"]::after {
-    background-image:url(../../../assets/images/behance.svg);
+  background-image: url(../../../assets/images/behance.svg);
 }
 
 .social_media__item_link[class*="linkedin"]::after {
-    background-image:url(../../../assets/images/linkedin.svg);
+  background-image: url(../../../assets/images/linkedin.svg);
 }
 
-.social_media__item_link::before, 
+.social_media__item_link::before,
 .social_media__item_link::after {
-	content: '';
-	border-radius: 50%;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	transition: all .2s ease-in-out;
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
 }
 
 .social_media__item_link::before {
-	transform: scale(0);
+  transform: scale(0);
 }
 
 .social_media__item_link:hover::before,
 .social_media__item_link:focus::before {
-	background-color: #ff0044;
-	transform: scale(1)
+  background-color: #ff0044;
+  transform: scale(1);
 }
 
-@media screen and (max-width:1024px) {
-    .social_media {
-        text-align: left
-    }
+@media screen and (max-width: 1024px) {
+  .social_media {
+    text-align: left;
+  }
 }
 
-@media screen and (max-width:480px) {
-	.social_media {
-		margin: 5vh 0 0 0;
-	}
+@media screen and (max-width: 480px) {
+  .social_media {
+    margin: 5vh 0 0 0;
+  }
 }

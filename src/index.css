@@ -1,32 +1,29 @@
 @font-face {
-font-family: 'gilroylight';
-    src: url('./assets/fonts/gilroy-light.eot');
-    src: url('./assets/fonts/gilroy-light.eot?#iefix') format('embedded-opentype'),
-        url('./assets/fonts/gilroy-light.woff2') format('woff2'),
-        url('./assets/fonts/gilroy-light.woff') format('woff'),
-        url('./assets/fonts/gilroy-light.ttf') format('truetype'),
-        url('./assets/fonts/gilroy-light.svg#gilroylight') format('svg');
-font-weight: normal;
-font-style: normal;
-
+  font-family: "gilroylight";
+  src: url("./assets/fonts/gilroy-light.eot");
+  src: url("./assets/fonts/gilroy-light.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/gilroy-light.woff2") format("woff2"), url("./assets/fonts/gilroy-light.woff") format("woff"),
+    url("./assets/fonts/gilroy-light.ttf") format("truetype"),
+    url("./assets/fonts/gilroy-light.svg#gilroylight") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-        
-@font-face {
-font-family: 'gilroyextrabold';
-    src: url('./assets/fonts/gilroy-extrabold.eot');
-    src: url('./assets/fonts/gilroy-extrabold.eot?#iefix') format('embedded-opentype'),
-        url('./assets/fonts/gilroy-extrabold.woff2') format('woff2'),
-        url('./assets/fonts/gilroy-extrabold.woff') format('woff'),
-        url('./assets/fonts/gilroy-extrabold.ttf') format('truetype'),
-        url('./assets/fonts/gilroy-extrabold.svg#gilroylight') format('svg');
-font-weight: normal;
-font-style: normal;
 
+@font-face {
+  font-family: "gilroyextrabold";
+  src: url("./assets/fonts/gilroy-extrabold.eot");
+  src: url("./assets/fonts/gilroy-extrabold.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/gilroy-extrabold.woff2") format("woff2"),
+    url("./assets/fonts/gilroy-extrabold.woff") format("woff"),
+    url("./assets/fonts/gilroy-extrabold.ttf") format("truetype"),
+    url("./assets/fonts/gilroy-extrabold.svg#gilroylight") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    font: 20px/1.5em 'gilroylight', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font: 20px/1.5em "gilroylight", sans-serif;
 }

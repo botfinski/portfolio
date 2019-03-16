@@ -1,23 +1,22 @@
 .columns {
-    column-count: 4;
-    column-gap: 0;
+  column-count: 4;
+  column-gap: 0;
 }
 
 @media screen and (max-width: 1200px) {
-    .columns {
-        column-count: 3;
-    }    
+  .columns {
+    column-count: 3;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-
-    .columns {
-        column-count: 2;
-    }    
+  .columns {
+    column-count: 2;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .columns {
-        column-count: 1;
-    }
+  .columns {
+    column-count: 1;
+  }
 }
